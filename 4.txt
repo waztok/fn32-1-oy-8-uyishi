@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int t;
+    
+    printf("Haroratni kiriting: ");
+    scanf("%d", &t);
+    
+    if (t > 20 && t < 35) {
+        printf("Havo iliq\n");
+    } else {
+        printf("Havo salqin yoki issiq\n");
+    }
+    
+    return 0;
+}

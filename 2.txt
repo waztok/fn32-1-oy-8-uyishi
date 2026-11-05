@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int yosh;
+    
+    printf("Yoshni kiriting: ");
+    scanf("%d", &yosh);
+    
+    if (yosh >= 7) {
+        printf("Maktabga borishi mumkin\n");
+    } else {
+        printf("Hali kichik\n");
+    }
+    
+    return 0;
+}

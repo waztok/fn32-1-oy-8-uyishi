@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int summa;
+    
+    printf("Xarid summasini kiriting: ");
+    scanf("%d", &summa);
+    
+    if (summa >= 200000) {
+        printf("Chegirma mavjud\n");
+    } else {
+        printf("Chegirma mavjud emas\n");
+    }
+    
+    return 0;
+}

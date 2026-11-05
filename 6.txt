@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int yosh, ball;
+    
+    printf("Yoshni kiriting: ");
+    scanf("%d", &yosh);
+    
+    printf("Balni kiriting: ");
+    scanf("%d", &ball);
+    
+    if (yosh >= 16 && ball >= 50) {
+        printf("Imtihonga kirishi mumkin\n");
+    } else {
+        printf("Imtihonga kira olmaydi\n");
+    }
+    
+    return 0;
+}

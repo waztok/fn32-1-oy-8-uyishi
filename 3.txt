@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int x, y;
+    
+    printf("Birinchi sonni kiriting: ");
+    scanf("%d", &x);
+    
+    printf("Ikkinchi sonni kiriting: ");
+    scanf("%d", &y);
+    
+    if (x != y) {
+        printf("Sonlar har xil\n");
+    } else {
+        printf("Sonlar teng\n");
+    }
+    
+    return 0;
+}
